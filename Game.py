@@ -1,10 +1,18 @@
 #Brandon Robbins
 #10-21-18
 #text base adventure game
+#THE UNKNOWN
 import random
 import time
 
 def displayIntro():
+    print(""" _   _ _   _ _  ___   _  _____        ___   _ 
+ | | | | \ | | |/ / \ | |/ _ \ \      / / \ | |
+ | | | |  \| | ' /|  \| | | | \ \ /\ / /|  \| |
+ | |_| | |\  | . \| |\  | |_| |\ V  V / | |\  |
+  \___/|_| \_|_|\_\_| \_|\___/  \_/\_/  |_| \_|""")
+                                              
+                                              
     print("You awake on a planet that you dont reconize and your AI assistant is ..........Unresponsive.""""
     its been who knows how long and you can feel your bones ache when you try and move""")
     #time.sleep(6)
@@ -29,6 +37,13 @@ def choosePath1():
     return path
 
 def checkPath1(chosenPath1):
+    print(""" ____   _  _____ _   _   _ 
+ |  _ \ / \|_   _| | | | / |
+ | |_) / _ \ | | | |_| | | |
+ |  __/ ___ \| | |  _  | | |
+ |_| /_/   \_\_| |_| |_| |_|
+                            """)
+    print()
     print("You head down the path")
     #time.sleep(3)
     print("you come up on a small station it looks......")
@@ -61,6 +76,12 @@ def choosePath2():
         
     return path
 def checkPath2(chosenPath2):
+    print(""" ____   _  _____ _   _   ____  
+ |  _ \ / \|_   _| | | | |___ \ 
+ | |_) / _ \ | | | |_| |   __) |
+ |  __/ ___ \| | |  _  |  / __/ 
+ |_| /_/   \_\_| |_| |_| |_____|
+                               """)
     print("you approch the the chosen door")
     print("you turn the door knob and go to step inside...")
     print()
@@ -83,6 +104,12 @@ def choosePath3():
         
     return path
 def checkPath3(chosenPath3):
+    print(""" ____   _  _____ _   _   _____ 
+ |  _ \ / \|_   _| | | | |___ / 
+ | |_) / _ \ | | | |_| |   |_ \ 
+ |  __/ ___ \| | |  _  |  ___) |
+ |_| /_/   \_\_| |_| |_| |____/ 
+                                """)
     print("You walk down the dimly lit stair case.....")
     print()
     correctPath3=random.randint(1,2)
@@ -106,6 +133,12 @@ def choosePath4():
 
     return path
 def checkPath4(chosenPath4):
+    print(""" ____   _  _____ _   _   _  _   
+ |  _ \ / \|_   _| | | | | || |  
+ | |_) / _ \ | | | |_| | | || |_ 
+ |  __/ ___ \| | |  _  | |__   _|
+ |_| /_/   \_\_| |_| |_|    |_|  
+                                 """)
     print("you walk down the hallway and start to see a light at the end")
     print()
     correctPath4=random.randint(1,2)
@@ -127,6 +160,12 @@ def choosePath5():
 
     return path
 def checkPath5(chosenPath5):
+    print(""" ____   _  _____ _   _   ____  
+ |  _ \ / \|_   _| | | | | ___| 
+ | |_) / _ \ | | | |_| | |___ \ 
+ |  __/ ___ \| | |  _  |  ___) |
+ |_| /_/   \_\_| |_| |_| |____/ 
+                                """)
     print("you begin to climb and are almost to the top, but you begin to feel the rope slip")
     print()
     correctPath5=random.randint(1,2)
@@ -149,6 +188,11 @@ def choosePath6():
 
     return path
 def checkPath6(chosenPath6):
+    print(""" ____   _  _____ _   _    __   
+ |  _ \ / \|_   _| | | |  / /_  
+ | |_) / _ \ | | | |_| | | '_ \ 
+ |  __/ ___ \| | |  _  | | (_) |
+ |_| /_/   \_\_| |_| |_|  \___/""")
     print("you begin to cross the bridge")
     print("*CREEEEEEEEK*")
     print("............")
@@ -174,6 +218,12 @@ def choosePath7():
 
     return path
 def checkPath7(chosenPath7):
+    print("""  ____   _  _____ _   _   _____ 
+ |  _ \ / \|_   _| | | | |___  |
+ | |_) / _ \ | | | |_| |    / / 
+ |  __/ ___ \| | |  _  |   / /  
+ |_| /_/   \_\_| |_| |_|  /_/   
+                                """)
     print("you hop into the raft and begin to paddle accross the river")
     print("you see the see a dorsal fin pop up out of the water")
     print()
@@ -196,6 +246,12 @@ def choosePath8():
 
     return path
 def checkPath8(chosenPath8):
+    print(""" ____   _  _____ _   _    ___  
+ |  _ \ / \|_   _| | | |  ( _ ) 
+ | |_) / _ \ | | | |_| |  / _ \ 
+ |  __/ ___ \| | |  _  | | (_) |
+ |_| /_/   \_\_| |_| |_|  \___/ 
+                                """)
     print("you head down the path")
     print("you find yourself under a tree")
     print("you also spot a strange bird over head")
@@ -218,6 +274,12 @@ def choosePath9():
 
     return path
 def checkPath9(chosenPath9):
+    print(""" ____   _  _____ _   _    ___  
+ |  _ \ / \|_   _| | | |  / _ \ 
+ | |_) / _ \ | | | |_| | | (_) |
+ |  __/ ___ \| | |  _  |  \__, |
+ |_| /_/   \_\_| |_| |_|    /_/ 
+                                """)
     print("you head down the rabbit hole.")
     print("you find yourself in a dark cave")
     print("you also hear a light hum")
@@ -241,11 +303,17 @@ def choosePath10():
 
     return path    
 def checkPath10(chosenPath10):
+    print(""" ____   _  _____ _   _   _  ___  
+ |  _ \ / \|_   _| | | | / |/ _ \ 
+ | |_) / _ \ | | | |_| | | | | | |
+ |  __/ ___ \| | |  _  | | | |_| |
+ |_| /_/   \_\_| |_| |_| |_|\___/ 
+                                 """)
     print("you grab the touch off the wall ")
     print("you begin to feel the tourch getting hot")
     print()
     correctPath10=random.randint(1,2)
-    if chosentPath10==str(correctPath10):
+    if chosenPath10==str(correctPath10):
         print("its a torch of course its hot.")
         print("how long will your luck last?")
         print("the touch gets brighter and reveils 2 corrodors")
@@ -263,6 +331,12 @@ def choosePath11():
 
     return path
 def checkPath11(chosenPath11):
+    print("""  ____   _  _____ _   _   _ _ 
+ |  _ \ / \|_   _| | | | / / |
+ | |_) / _ \ | | | |_| | | | |
+ |  __/ ___ \| | |  _  | | | |
+ |_| /_/   \_\_| |_| |_| |_|_|
+                              """)
     print("you walk down the corrodor")
     print("you hear a gun go off behind you")
     print()
@@ -284,6 +358,12 @@ def choosePath12():
 
     return path
 def checkPath12(chosenPath12):
+    print(""" ____   _  _____ _   _   _ ____  
+ |  _ \ / \|_   _| | | | / |___ \ 
+ | |_) / _ \ | | | |_| | | | __) |
+ |  __/ ___ \| | |  _  | | |/ __/ 
+ |_| /_/   \_\_| |_| |_| |_|_____|
+                                  """)
     print("you put on the diving suit")
     print("you cant breath!")
     print()
@@ -306,6 +386,12 @@ def choosePath13():
 
     return path
 def checkPath13(chosenPath13):
+    print(""" ____   _  _____ _   _   _ _____ 
+ |  _ \ / \|_   _| | | | / |___ / 
+ | |_) / _ \ | | | |_| | | | |_ \ 
+ |  __/ ___ \| | |  _  | | |___) |
+ |_| /_/   \_\_| |_| |_| |_|____/ 
+                                 """)
     print("you remove the plug.")
     print()
     correctPath13=random.randint(1,2)
@@ -328,6 +414,12 @@ def choosePath14():
 
     return path
 def checkPath14(chosenPath14):
+    print(""" ____   _  _____ _   _   _ _  _   
+ |  _ \ / \|_   _| | | | / | || |  
+ | |_) / _ \ | | | |_| | | | || |_ 
+ |  __/ ___ \| | |  _  | | |__   _|
+ |_| /_/   \_\_| |_| |_| |_|  |_|  
+                                  """)
     print("you open the door.")
     print("the door makes a deafining SKREEEEECH.")
     print()
@@ -349,6 +441,12 @@ def choosePath15():
 
     return path
 def checkPath15(chosenPath15):
+    print(""" ____   _  _____ _   _   _ ____  
+ |  _ \ / \|_   _| | | | / | ___| 
+ | |_) / _ \ | | | |_| | | |___ \ 
+ |  __/ ___ \| | |  _  | | |___) |
+ |_| /_/   \_\_| |_| |_| |_|____/ 
+                                 """)
     print(" you pull the leaver")
     print("you feel the floor shift underneath you")
     print()
@@ -373,6 +471,12 @@ def choosePath16():
 
     return path
 def checkPath16(chosenPath16):
+    print(""" ____   _  _____ _   _   _  __   
+ |  _ \ / \|_   _| | | | / |/ /_  
+ | |_) / _ \ | | | |_| | | | '_ \ 
+ |  __/ ___ \| | |  _  | | | (_) |
+ |_| /_/   \_\_| |_| |_| |_|\___/ 
+                                  """)
     print("you walk through the portal")
     print("you start to feel funny")
     print()
@@ -396,15 +500,92 @@ def choosePath17():
 
     return path
 def checkPath17(chosenPath17):
+    print(""" ____   _  _____ _   _   _ _____ 
+ |  _ \ / \|_   _| | | | / |___  |
+ | |_) / _ \ | | | |_| | | |  / / 
+ |  __/ ___ \| | |  _  | | | / /  
+ |_| /_/   \_\_| |_| |_| |_|/_/   
+                                  """)
     print("you walk down the stairs")
     print(" they seem to be going on forever")
     print()
-    correctPath17=random.randint(1,2)'
+    correctPath17=random.randint(1,2)
     if chosenPath17==str(correctPath17):
-        print()
+        print("you realize that your not even moving")
+        print("so you start walking back wards")
+        print("can see light behind you")
+        print("how long will your luck last?")
+        print("you find yourself infront of the exact same station")
+        print("with the same 2 doors")
+    if chosenPath17!=str(correctPath17):
+        print("the stairs just keep going and going")
+        print("you dont think to turn around so you die of boredom")
+        print("so ends your adventure into the UNKNOWN.")
+        global x
+        x+=1
+    
+def choosePath18():
+    path=""
+    while path !=  "1" and path != "2":
+        path= input("Which path will you choose?  (1 or 2): ")    
+
+    return path
+def checkPath18(chosenPath18):
+    print(""" ____   _  _____ _   _   _  ___  
+ |  _ \ / \|_   _| | | | / |( _ ) 
+ | |_) / _ \ | | | |_| | | |/ _ \ 
+ |  __/ ___ \| | |  _  | | | (_) |
+ |_| /_/   \_\_| |_| |_| |_|\___/ 
+                                 """)
+    print("you open the door.")
+    print()
+    correctPath18=random.randint(1,2)
+    if chosenPath18==str(correctPath18):
+        print("you walk through the door")
+        print("nothing happens")
+        print("how long will your luck last?")
+        print(" you find yourself in the same canyon as before")
+        print("with the same two paths")
+    if chosenPath18!=str(correctPath18):
+        print("you open the door")
+        print("you peek your head in to check for traps")
+        print("the door slams and cuts off your head")
+        print("so ends your adventure into the UNKNOWN")
+        global x
+        x+=1
+def choosePath19():
+    path=""
+    while path !=  "1" and path != "2":
+        path= input("Which path will you choose?  (1 or 2): ")    
+
+    return path
+def checkPath19(chosenPath19):
+    print(""" ____   _  _____ _   _   _  ___  
+ |  _ \ / \|_   _| | | | / |/ _ \ 
+ | |_) / _ \ | | | |_| | | | (_) |
+ |  __/ ___ \| | |  _  | | |\__, |
+ |_| /_/   \_\_| |_| |_| |_|  /_/ 
+                                 """)
+    print("you walk down the path")
+    print("you feel a sense of familiarity")
+    print()
+    correctPath19=random.randint(1,2)
+    if chosenPath19==str(correctPath19):
+        print("you continue down the same path you took in the begining")
+        print("you feel safe")
+        print("how long will your luck last?")
+        print("as you walk down that familiar path one more time you begin to notice""""
+that you have been here before hundreds and hundreds of times. No matter how far you travel into the UNKNOWN you'll
+always find yourself right back to where you started....""""")
+    if chosenPath19!=str(correctPath19):
+        print("you find yourself face to face with the beast you know but have never faced in this life.")
+        print("you know how this ends how this whole story ends.")
+        print("so ends your adventure into the UNKNOWN.")
+        global x
+        x+=1
 
 
-#start here
+
 
 
 
@@ -522,6 +703,24 @@ while playAgain=="yes" or playAgain=="y":
         break
     choice16=choosePath16()
     checkPath16(choice16)
+    game_over()
+    print(playAgain)
+    if playAgain=="YOU DIED":
+        break
+    choice17=choosePath17()
+    checkPath17(choice17)
+    game_over()
+    print(playAgain)
+    if playAgain=="YOU DIED":
+        break
+    choice18=choosePath18()
+    checkPath18(choice18)
+    game_over()
+    print(playAgain)
+    if playAgain=="YOU DIED":
+        break
+    choice19=choosePath19()
+    checkPath19(choice19)
     game_over()
     print(playAgain)
     if playAgain=="YOU DIED":
