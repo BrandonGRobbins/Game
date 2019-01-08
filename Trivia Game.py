@@ -36,7 +36,7 @@ def welcome(title):
 
 def main():
     the_file=open_file("test_question.txt","r")
-    title=the_file.readline()
+    title=next_line(the_file)
     welcome(title)
     score=0
     category,question,answers,correct,explanation=next_block(the_file)
@@ -44,7 +44,7 @@ def main():
         print(category)
         print(question)
         for i in range(4):
-            print(i+1,answer[i])
+            print(i+1,"-",answers[i])
         user=input("which answer is correct?,input the corresponding number")
         if user==correct:
             print("congrats you got it right")
@@ -52,8 +52,14 @@ def main():
         else:
             print("you failed that question")
         print(explanation)
-        category,question,answers,correct,explanation=next_block(the_file)
-        the_file.close()
-        print("the game is now over you got",score,'correct!')
-        input("press enter to quit")
+        print("Score:", score, "\n\n")
+        
+        
+        
+        category, question, answers, correct, explanation = next_block(the_file)
+    the_file.close()
+    print("thats all the questions")
+    print("your final score is",score)
 main()
+input("press enter to exit")
+

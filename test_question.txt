@@ -1,0 +1,81 @@
+Brandons Trivia Game
+Back to basics
+What is the name of the programming language we're using?
+Python
+Java
+C++
+HTML
+1
+Python is what we're using.
+"Hello world"
+What would you use to display this in Python shell?
+Input
+Print
+Return
+While
+2
+Print is the command you would use.
+Are you yelling?
+Which code formats the string "Green" to "GREEN"?
+.upper()
+.istitle()
+.capitalize() 
+.isupper()
+1
+.upper() capitalizes every character in a string.
+Numbers Numbers Numbers
+What does type(1024) return?
+Int
+Str
+Float
+All of the above
+1
+They are numbers so it will return Int.
+ERROR!
+What will PriNt("Hello World") result in?
+NameError
+TypeError
+SyntaxError
+All of the above  
+1
+Sense the Error is in the print command it would be a name error.
+Input Input Input
+Which is an example of the proper use of the Python input() function?
+answer = input("enter your answer: ")
+answer = INPUT(enter your answer: )
+answer = INPUT("enter your answer: ")
+answer = input(enter your answer: )
+1
+Answer 1 is the only logical Choice that would not result in a error.
+String addition
+Which is a properly formatted Python print() function example?
+print("Welcome the", 3 + " New students!")
+print("Welcome the", 3 + New students!)
+print("Welcome the", 3, New students!)
+print("Welcome the", 3, "New students!")
+4
+There is no need for a plus sign and you need Quotation marks.
+Nesting Nesting Nesting
+Nested Conditional code always runs all sub-conditions that are indented under if.
+True
+False
+NA
+NA
+2
+Only the ones that are able to be caught.
+While Loops!
+while True: will loop forever but can be interrupted using the Python keyword "end" inside the loop.
+True
+Flase
+NA
+NA
+2
+The keyword you need is "Break".
+List List List!
+Which best describes a valid Python use of the following days List?
+days.append(1, "Wednesday")
+days.insert(1, "Wednesday")
+print(days[6])
+All of the above
+2
+The proper command to use would be Insert.
